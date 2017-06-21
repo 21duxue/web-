@@ -1,0 +1,199 @@
+*{
+	margin:0;
+	padding:0;
+	color:#522a06;
+	font-size:12px;
+	font-family:'宋体';
+}
+a{
+	color:#522a06;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+body{
+	background-image: url(../images/chunse.jpg);
+	background-repeat: repeat;
+}
+#header{
+	height:200px;
+	position: relative;
+	left:100px;
+}
+#nav{
+	height:40px;
+	width:1025px;
+	background-image: url(../images/muwentu.jpg);
+	background-repeat: repeat-x;
+}
+#banner{
+	position:relative;
+}
+.nav_header ul{
+	width:1000px;
+	margin:0 auto;
+}
+.nav_header ul li{
+	float:left;
+	height:40px;
+}
+.nav_header a{
+	width:100px;
+	position:relative;
+	top:10px;
+	border-right:1px solid #522a06;
+	text-align: center;
+	display:block;
+}
+.nav_header a:hover{
+	color:#f9f603;
+	text-decoration: none;
+}
+.nav_header li{
+	list-style: none;
+	font-weight: bold;
+}
+.nav_search #search1{
+	height:19px;
+	width:100px;
+	background-color: #f8f5ee;
+	position:relative;
+
+}
+#nav_search #search2{
+	height:12px;
+	width:40px;
+	background-color: #000;
+	color:#fff;
+	border:1px solid #f8f5ee;
+	position:relative;
+
+}
+#content{
+	width:1000px;
+	margin:0 auto;
+}
+#content_top{
+	position: relative;
+	right:160px;
+	margin-top: 5px;
+}
+#left{
+	width:300px;
+	float:left;
+}
+#left1{
+	margin-top: 10px;
+	position: relative;
+	right:160px;
+	width:300px;
+	height:680px;
+	border: 1px solid #522a06;
+}
+#left1 h1{
+	text-align: center;
+	font-weight: bold;
+	background-image: url(../images/muwentu.jpg);
+	width:300px;
+	height:20px;
+}
+#left1 img{
+	padding-left: 20px;
+}
+#right{
+	width:650px;
+	float:left;
+	position: relative;
+	right:120px;
+
+}
+#right1{
+	width:650px;
+	float:left;
+	font-size: 16px;
+	border: 1px solid #522a06;
+	margin-top: 23px;
+}
+#right1 ul li {
+	list-style:none;
+	margin-top:10px;
+	text-align: left;
+}
+#right1 ul li a{
+	font-size: 16px;
+}
+#biaoti{
+	background-image: url(../images/muwentu.jpg);
+	width:650px;
+	height:25px;
+	float:left;
+	font-size:16px;
+	font-weight: bold; 
+	text-align: center;
+}
+.date{
+	float:right;
+	font-size: 16px;
+}
+#clear{
+	clear:both;
+}
+#right2{
+	width:650px;
+	height:220px;
+	border: 1px solid #522a06;
+	float:left;
+	margin-top: 20px;
+}
+#right2 h1{
+
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	background-image:url(../images/muwentu.jpg);
+	width:650px;
+	height:20px;
+}
+.main{
+	width:200px;
+	height:220px;
+	margin-left: 10px;
+	float:left;
+}
+.main img{
+	float:left;
+	width:180px;
+	height:150px;
+	margin-top: 5px;
+}
+.book{
+	font-size: 12px;
+	font-weight: bold;
+	float:left;
+	margin-top: 10px;
+}
+#footer{
+	height: 105px;
+	margin-top: 50px;
+	text-align: center;
+	margin-right:100px; 
+}
+#footer ul
+{
+	width: 600px;
+	margin:0 auto;
+}
+#footer li{
+	border-right: 1px solid #000;
+	width: 85px;
+	text-align: center;
+	display: block;
+	float: left;
+	font-size: 15px;
+	color: #B97E25;
+}
+#footer img{
+	position: relative;
+	right: 40px;
+}

@@ -1,0 +1,181 @@
+*{
+	margin:0;
+	padding:0;
+	color:#522a06;
+	font-size:12px;
+	font-family:'宋体';
+}
+a{
+	color:#522a06;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+body{
+	background-image: url(../images/chunse.jpg);
+	background-repeat: repeat;
+}
+#header{
+	height:200px;
+	position: relative;
+	left:100px;
+}
+#nav{
+	height:40px;
+	width:1025px;
+	background-image: url(../images/muwentu.jpg);
+	background-repeat: repeat-x;
+}
+#banner{
+	position:relative;
+}
+.nav_header ul{
+	width:1000px;
+	margin:0 auto;
+}
+.nav_header ul li{
+	float:left;
+	height:40px;
+}
+.nav_header a{
+	width:100px;
+	position:relative;
+	top:10px;
+	border-right:1px solid #522a06;
+	text-align: center;
+	display:block;
+}
+.nav_header a:hover{
+	color:#f9f603;
+	text-decoration: none;
+}
+.nav_header li{
+	list-style: none;
+	font-weight: bold;
+}
+.nav_search #search1{
+	height:19px;
+	width:100px;
+	background-color: #f8f5ee;
+	position:relative;
+
+}
+#nav_search #search2{
+	height:12px;
+	width:40px;
+	background-color: #000;
+	color:#fff;
+	border:1px solid #f8f5ee;
+	position:relative;
+
+}
+#content{
+	width:1000px;
+	margin:0 auto;
+}
+#content_top{
+	position: relative;
+	right:160px;
+	margin-top: 5px;
+}
+#left{
+	width:700px;
+	text-align: center;
+	margin-top: 10px;
+	float:left;
+	position: relative;
+	right:150px;
+}
+#left1 h1{
+	font-size: 16px;
+}
+#left1 p{
+	color:#AAAAAA;
+}
+#left2{
+	margin-top: 20px;
+	text-indent: 40px;
+	line-height: 30px;
+	margin:0 auto;
+}
+#wen{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+#left3 p{
+	height:50px;
+	float: left;
+	margin-left: 170px;
+}
+
+#right{
+	border:1px solid #522a06;
+	width:230px;
+	position: relative;
+	right:90px;
+	height:560px;
+	float:left;
+}
+#right ul li{
+	list-style: none;
+	margin-top:20px; 
+}
+#right1 img{
+	width:230px;
+	height:40px;
+}
+#right2 img{
+	margin-top: 60px;
+	width:230px;
+	height:200px;
+	float:left;
+}
+#right3{
+	width:230px;
+	height:300px;
+	border: 1px solid #522a06;
+	float:left;
+	margin-top: 20px;
+}
+#right3 img{
+	width:230px;
+	height:50px;
+	float:left;
+}
+#xinwen{
+	float:left;
+	margin-top: 20px;
+}
+#xinwen h1{
+	font-size: 16px;
+	text-align: center;
+}
+#xinwen a{
+	line-height: 20px;
+}
+#footer{
+	height: 105px;
+	margin-top: 70px;
+	text-align: center;
+	margin-right:100px; 
+}
+#footer ul
+{
+	width: 600px;
+	margin:0 auto;
+}
+#footer li{
+	border-right: 1px solid #000;
+	width: 85px;
+	text-align: center;
+	display: block;
+	float: left;
+	font-size: 15px;
+	color: #B97E25;
+}
+#footer img{
+	position: relative;
+	right: 40px;
+}
